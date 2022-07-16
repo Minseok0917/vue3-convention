@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# Vue3-Convention
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+-   **component**
+    -   [ ] 레이아웃 컴포넌트 ( Template )
+    -   페이지 내용 컴포넌트
+        -   [ ] 정적 컴포넌트
+        -   [ ] 동적 컴포넌트
+    -   공통 컴포넌트
+        -   [ ] 모달
+-   **store**
+    -   [ ] 구성
+    -   [ ] 생성, 갱신, 삭제, 가져오기
+    -   [ ] 초기화
+-   **router**
+    -   [x] 구성
+    -   [ ] 유저 권한 별 페이지 접근 제어
+-   **axios**
+    -   [x] 구성
+    -   [ ] 예외처리
